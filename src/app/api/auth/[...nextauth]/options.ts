@@ -37,8 +37,6 @@ export const authOptions: NextAuthOptions = {
           } else {
             throw new Error("Please verify your email before you login ")
           }
-
-
         } catch (error) {
           console.error("Error occerd when login")
 
